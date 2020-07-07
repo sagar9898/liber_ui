@@ -52,7 +52,7 @@ class RestaurantScreen extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.list),title: Text('Current Order',style:Theme.of(context).textTheme.headline,),),
           BottomNavigationBarItem(icon: Icon(Icons.home),title: Text('Go to Home',style:Theme.of(context).textTheme.headline),),
-          BottomNavigationBarItem(icon: Icon(Icons.content_paste),title: Text('Past Order',style:Theme.of(context).textTheme.headline),)
+          BottomNavigationBarItem(icon: Icon(Icons.note),title: Text('Past Order',style:Theme.of(context).textTheme.headline),)
         ]),
       ),
     );
